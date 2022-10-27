@@ -96,3 +96,11 @@ $('#chart02').on('inview', function (event, isInView) {//画面上に入った�
 
   }
 });
+
+
+
+
+
+document.querySelector('.menu-btn').addEventListener('click', function () {
+  document.querySelector('.menu').classList.toggle('is-active');
+});

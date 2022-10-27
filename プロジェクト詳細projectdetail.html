@@ -605,7 +605,13 @@
 
     @media screen and (max-width:767px) {
       .container .section {
+        margin-top: 110px;
         padding: 24px 16px
+      }
+
+      .SectionHeader .btns[data-v-80d2b132] {
+        margin: 150px 0 0 0;
+        transition: margin .3s;
       }
     }
 
@@ -38195,279 +38201,498 @@
       font-weight: bolder;
       color: #2a4685;
     }
+
+    @media screen and (max-width:576px) {
+      .button003 a {
+        background: #304ea8 !important;
+        border-radius: 10px !important;
+        border: 1px solid #fff;
+        color: #fff;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 385px;
+        padding: 3px 20px;
+        transition: 0.3s ease-in-out;
+        font-weight: 500;
+        text-align: center;
+        decoration: none;
+        margin-right: 10px !important;
+      }
+
+      .button003 {
+        padding-top: 30px !important;
+        display: flex !important;
+        justify-content: space-evenly !important;
+        font-size: 16px !important;
+      }
+
+      .col-xxl-3.col-md-6 {
+        margin-bottom: 20px !important;
+      }
+
+      .content {
+        padding-bottom: 2.375rem;
+      }
+
+      .button003 {
+        width: 100%;
+        height: 78px;
+      }
+
+    }
+
+
+
+    /*----------------------------
+* メニュー開閉ボタン
+*----------------------------*/
+    .menu-btn {
+      position: fixed;
+      right: 20px;
+      z-index: 2;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      background: #304ea8 !important;
+    }
+
+    /*----------------------------
+* メニュー本体
+*----------------------------*/
+    .menu {
+      position: fixed !important;
+      top: 0 !important;
+      right: 0 !important;
+      z-index: 1 !important;
+      width: 100vw !important;
+      height: 100vh !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      background: #304ea8 !important;
+    }
+
+    .menu__item {
+      width: 100% !important;
+      height: auto !important;
+      padding: 1em 1em !important;
+      text-align: center !important;
+      color: #fff !important;
+      box-sizing: border-box !important;
+      font-size: 22px !important;
+      font-weight: bold !important;
+    }
+
+    .menu__item a {
+      width: 100% !important;
+      height: auto !important;
+      padding: .5em 1em !important;
+      text-align: center !important;
+      color: #fff !important;
+      box-sizing: border-box !important;
+    }
+
+
+    /*----------------------------
+* アニメーション部分
+*----------------------------*/
+
+    /* アニメーション前のメニューの状態 */
+    .menu {
+      transform: translateX(100vw) !important;
+      transition: all .3s linear !important;
+    }
+
+    /* アニメーション後のメニューの状態 */
+    .menu.is-active {
+      transform: translateX(0) !important;
+    }
+
+    @media(min-width:751px) {
+
+      .menu-btn {
+        display: none !important;
+      }
+
+      .menu {
+        display: none !important;
+      }
+
+      .menu__item {
+        display: none !important;
+      }
+    }
+
+    @media screen and (max-width:576px) {
+      .container {
+        margin-top: 90px;
+      }
+    }
   </style>
+
+  <script type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion_async.js"></script>
+  <script type="text/javascript" async=""
+    src="https://www.googletagmanager.com/gtag/js?id=AW-482041315&amp;l=dataLayer&amp;cx=c"></script>
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+  <script type="text/javascript" async=""
+    src="https://apis.usonar.jp/alog/alog.php?gid=forstartups&amp;uid=LID1531vtjmb7kqc&amp;pw=bkhydns75u93&amp;ourl=https%3A%2F%2Fstartup-db.com%2F&amp;ref=&amp;title=STARTUP%20DB%EF%BD%9C%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9&amp;_usc=true&amp;_usv=1.0&amp;_usci=CID16603275061532652&amp;_usf="></script>
+  <script async="" src="https://www.clarity.ms/eus2-d/s/0.6.43/clarity.js"></script>
+  <script async="" src="https://cdn.cookie.sync.usonar.jp/cookie_sync/landscape_cookie_sync.js"></script>
+  <script type="text/javascript" charset="UTF-8" async="" src="https://apis.usonar.jp/alog/js2/alog.js"></script>
+  <script src="https://js.hs-banner.com/8639592.js" type="text/javascript" id="cookieBanner-8639592"
+    data-cookieconsent="ignore" data-hs-ignore="true" data-loader="hs-scriptloader" data-hsjs-portal="8639592"
+    data-hsjs-env="prod" data-hsjs-hublet="na1"></script>
+  <script src="https://js.hs-analytics.net/analytics/1666698000000/8639592.js" type="text/javascript"
+    id="hs-analytics"></script>
+  <script src="https://js.hsadspixel.net/fb.js" type="text/javascript" id="hs-ads-pixel-8639592"
+    data-ads-portal-id="8639592" data-ads-env="prod" data-loader="hs-scriptloader" data-hsjs-portal="8639592"
+    data-hsjs-env="prod" data-hsjs-hublet="na1"></script>
+  <script src="https://js.hscollectedforms.net/collectedforms.js" type="text/javascript" id="CollectedForms-8639592"
+    crossorigin="anonymous" data-leadin-portal-id="8639592" data-leadin-env="prod" data-loader="hs-scriptloader"
+    data-hsjs-portal="8639592" data-hsjs-env="prod" data-hsjs-hublet="na1"></script>
+  <script src="https://js.hsleadflows.net/leadflows.js" type="text/javascript" id="LeadFlows-8639592"
+    crossorigin="anonymous" data-leadin-portal-id="8639592" data-leadin-env="prod" data-loader="hs-scriptloader"
+    data-hsjs-portal="8639592" data-hsjs-env="prod" data-hsjs-hublet="na1"></script>
+  <script async="" src="https://www.clarity.ms/tag/7kzbgdvtc0?ref=gtm2"></script>
+  <script src="https://connect.facebook.net/signals/config/2397770990530046?v=2.9.87&amp;r=stable" async=""></script>
+  <script src="https://connect.facebook.net/signals/config/411962829885338?v=2.9.87&amp;r=stable" async=""></script>
+  <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+  <script async="" src="//static.ads-twitter.com/uwt.js"></script>
+  <script type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion_async.js"></script>
+  <script gtm="GTM-K966H7H" type="text/javascript" async=""
+    src="https://www.google-analytics.com/gtm/optimize.js?id=GTM-TJ242M3"></script>
+  <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-K966H7H"></script>
+  <script data-n-head="ssr" src="//js.hsforms.net/forms/v2.js"></script>
+  <script data-n-head="ssr"
+    data-hid="gtm-script">if (!window._gtm_init) { window._gtm_init = 1; (function (w, n, d, m, e, p) { w[d] = (w[d] == 1 || n[d] == 'yes' || n[d] == 1 || n[m] == 1 || (w[e] && w[e][p] && w[e][p]())) ? 1 : 0 })(window, navigator, 'doNotTrack', 'msDoNotTrack', 'external', 'msTrackingProtectionEnabled'); (function (w, d, s, l, x, y) { w[x] = {}; w._gtm_inject = function (i) { if (w.doNotTrack || w[x][i]) return; w[x][i] = 1; w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s); j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i; f.parentNode.insertBefore(j, f); }; w[y]('GTM-K966H7H') })(window, document, 'script', 'dataLayer', '_gtm_ids', '_gtm_inject') }</script>
+  <link rel="preload" href="/_nuxt/6f4c08b.js" as="script">
+  <link rel="preload" href="/_nuxt/669fb2a.js" as="script">
+  <link rel="preload" href="/_nuxt/a680e61.js" as="script">
+  <link rel="preload" href="/_nuxt/abd38da.js" as="script">
+  <link rel="preload" href="/_nuxt/2322839.js" as="script">
+  <link rel="preload" href="/_nuxt/ca934f2.js" as="script">
+  <link rel="preload" href="/_nuxt/5ea62d4.js" as="script">
+  <link rel="preload" href="/_nuxt/2a72df7.js" as="script">
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-482041315"></script>
+  <meta http-equiv="origin-trial"
+    content="A7bG5hJ4XpMV5a3V1wwAR0PalkFSxLOZeL9D/YBYdupYUIgUgGhfVJ1zBFOqGybb7gRhswfJ+AmO7S2rNK2IOwkAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
+  <script type="text/javascript" async=""
+    src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/482041315/?random=1666698226928&amp;cv=9&amp;fst=1666698226928&amp;num=1&amp;bg=ffffff&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=900&amp;u_w=1440&amp;u_ah=824&amp;u_aw=1440&amp;u_cd=30&amp;u_his=1&amp;u_tz=540&amp;u_java=false&amp;u_nplug=5&amp;u_nmime=2&amp;gtm=2oaaj0&amp;sendb=1&amp;ig=1&amp;data=event%3Dgtag.config&amp;frm=0&amp;url=https%3A%2F%2Fstartup-db.com%2F&amp;tiba=STARTUP%20DB%EF%BD%9C%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9&amp;auid=1201383735.1660327506&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=320,
+          height=480,
+          initial-scale=1.0,
+          minimum-scale=1.0,
+          maximum-scale=2.0,
+          user-scalable=yes" />
+  <script src="static/js/9-5-5.js"></script>
 </head>
 
 <body cz-shortcut-listen="true"><noscript>You need to enable JavaScript to run this app.</noscript>
-  <div class="header">
-    <div _ngcontent-client-app-c277="" class="header-contents"
-      style="display:block; position:fixed; left:0; right:0; top:0; z-index:2;">
-      <a class="text-decoration-none navbar-brand text-left" href="index.html">
-        <div class="d-flex align-items-center py-3"><span class="font-sans-serif">
-            <font style="vertical-align: inherit;">
-              <font style="vertical-align: inherit;">Web3資金調達データベース</font>
-            </font>
-          </span></div>
-      </a>
-    </div>
-  </div>
-  <main class="main" id="main">
-    <div class="container">
-      <nav class="navbar-vertical navbar navbar-expand-xl navbar-light">
-        <div class="d-flex align-items-center">
-          <a class="text-decoration-none navbar-brand text-left" href="index.html">
-            <div class="d-flex align-items-center py-3"><span class="font-sans-serif">
-                <font style="vertical-align: inherit;">
-                </font>
-              </span></div>
-          </a>
-        </div>
-        <div class="navbar-collapse collapse" style="background-image: none;">
-          <div class="navbar-vertical-content scrollbar">
-            <ul class="flex-column navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="index.html">
-                  <div class="d-flex align-items-center"><i class="fa-solid fa-house"></i>
-                    <span class="nav-link-text ps-1">
-                      <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">トップページ</font>
-                      </font>
-                    </span>
-                  </div>
-                </a></li>
-              <li class="nav-item"><a class="nav-link" href="プロジェクト詳細projectdetail.html">
-                  <div class="d-flex align-items-center"><i class="fa-solid fa-globe"></i><span
-                      class="nav-link-text ps-1">
-                      <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">プロジェクトから探す</font>
-                      </font>
-                    </span></div>
-                </a>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="投資家一覧lnvestor.html">
-                  <div class="d-flex align-items-center"><i class="fa-regular fa-circle-user"></i><span
-                      class="nav-link-text ps-1">
-                      <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">投資家から探す</font>
-                      </font>
-                    </span></div>
-                </a></li>
-              <li class="nav-item"><a class="nav-link" href="ジャンル一覧genre.html">
-                  <div class="d-flex align-items-center"><i class="fa-solid fa-magnifying-glass"></i><span
-                      class="nav-link-text ps-1">
-                      <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">ジャンルから探す</font>
-                      </font>
-                    </span></div>
-                </a></li>
-            </ul>
+  <div id="__nuxt">
+    <div id="__layout">
+      <div data-fetch-key="2" class="body" data-v-58368805>
+        <div class="BgTop" data-v-58368805>
+
+          <div _ngcontent-client-app-c277="" class="header-contents"
+            style="display:block; position:fixed; left:0; right:0; top:0; z-index:2;">
+            <div _ngcontent-client-app-c277="" class="header-contents" style="">
+              <button type="button" class="menu-btn">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </button>
+              <div class="menu">
+                <div class="menu__item"><a href="index.html">トップページ</a></div>
+                <div class="menu__item"><a href="プロジェクト詳細projectdetail.html">プロジェクトから探す</a></div>
+                <div class="menu__item"><a href="投資家一覧lnvestor.html">投資家から探す</a></div>
+                <div class="menu__item"><a href="ジャンル一覧genre.html">ジャンルから探す</a></div>
+              </div>
+              <a class="text-decoration-none navbar-brand text-left" href="index.html">
+                <div class="d-flex align-items-center py-3"><span class="font-sans-serif">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Web3資金調達データベース</font>
+                    </font>
+                  </span></div>
+              </a>
+            </div>
           </div>
-        </div>
-      </nav>
-      <div class="content">
-        <div class="SectionHeader" data-v-80d2b132="" data-v-371910de="">
-          <div data-v-80d2b132="">
-            <div class="top-area-wrapper" data-v-80d2b132="">
-              <div class="top-area inner" data-v-80d2b132="">
-                <div class="company" data-v-80d2b132="">
-                  <div class="company-logo-wrapper" data-v-80d2b132=""><img
-                      src="https://startup-db.com/company-service/company/5673/logo_vertical.png/original.png?1602489569"
-                      class="SdbImage company-logo"
-                      style="object-fit:contain;font-family:&quot;object-fit: contain&quot;;" data-v-7644b25e=""
-                      data-v-80d2b132=""></div>
-                  <h2 class="company-name" data-v-80d2b132="">プロジェクト名</h2>
+          <main class="main" id="main">
+            <div class="container">
+              <nav class="navbar-vertical navbar navbar-expand-xl navbar-light">
+                <div class="d-flex align-items-center">
+                  <a class="text-decoration-none navbar-brand text-left" href="index.html">
+                    <div class="d-flex align-items-center py-3"><span class="font-sans-serif">
+                        <font style="vertical-align: inherit;">
+                        </font>
+                      </span></div>
+                  </a>
                 </div>
-                <div class="btns" data-v-80d2b132="">
-                  <div class="btn-bottom" data-v-80d2b132="">
-                    <div class="SdbButton btn-share" data-v-271e7e60="" data-v-80d2b132="">
-                      <div class="achromatic-small" data-v-271e7e60="">
-                        <p>URL:<a href="https://testtest..." target="_blank" rel="noopener" class="SdbExternalLink"
-                            data-v-9f85f972="">https://testtest...</a></p>
-                        <p>xxxxxx</p>
+                <div class="navbar-collapse collapse" style="background-image: none;">
+                  <div class="navbar-vertical-content scrollbar">
+                    <ul class="flex-column navbar-nav">
+                      <li class="nav-item"><a class="nav-link" href="index.html">
+                          <div class="d-flex align-items-center"><i class="fa-solid fa-house"></i>
+                            <span class="nav-link-text ps-1">
+                              <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">トップページ</font>
+                              </font>
+                            </span>
+                          </div>
+                        </a></li>
+                      <li class="nav-item"><a class="nav-link" href="プロジェクト詳細projectdetail.html">
+                          <div class="d-flex align-items-center"><i class="fa-solid fa-globe"></i><span
+                              class="nav-link-text ps-1">
+                              <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">プロジェクトから探す</font>
+                              </font>
+                            </span></div>
+                        </a>
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="投資家一覧lnvestor.html">
+                          <div class="d-flex align-items-center"><i class="fa-regular fa-circle-user"></i><span
+                              class="nav-link-text ps-1">
+                              <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">投資家から探す</font>
+                              </font>
+                            </span></div>
+                        </a></li>
+                      <li class="nav-item"><a class="nav-link" href="ジャンル一覧genre.html">
+                          <div class="d-flex align-items-center"><i class="fa-solid fa-magnifying-glass"></i><span
+                              class="nav-link-text ps-1">
+                              <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">ジャンルから探す</font>
+                              </font>
+                            </span></div>
+                        </a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <div class="content">
+                <div class="SectionHeader" data-v-80d2b132="" data-v-371910de="">
+                  <div data-v-80d2b132="">
+                    <div class="top-area-wrapper" data-v-80d2b132="">
+                      <div class="top-area inner" data-v-80d2b132="">
+                        <div class="company" data-v-80d2b132="">
+                          <div class="company-logo-wrapper" data-v-80d2b132=""><img
+                              src="https://startup-db.com/company-service/company/5673/logo_vertical.png/original.png?1602489569"
+                              class="SdbImage company-logo"
+                              style="object-fit:contain;font-family:&quot;object-fit: contain&quot;;" data-v-7644b25e=""
+                              data-v-80d2b132=""></div>
+                          <h2 class="company-name" data-v-80d2b132="">プロジェクト名</h2>
+                        </div>
+                        <div class="btns" data-v-80d2b132="">
+                          <div class="btn-bottom" data-v-80d2b132="">
+                            <div class="SdbButton btn-share" data-v-271e7e60="" data-v-80d2b132="">
+                              <div class="achromatic-small" data-v-271e7e60="">
+                                <p>URL:<a href="https://testtest..." target="_blank" rel="noopener"
+                                    class="SdbExternalLink" data-v-9f85f972="">https://testtest...</a></p>
+                                <p>xxxxxx</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="SdbModalChangeLog" data-v-6ad41444="" data-v-80d2b132="">
+                    <!---->
+                  </div>
+                  <div class="ModalShare" data-v-a9099ad6="" data-v-80d2b132="">
+                    <!---->
+                  </div>
+                </div>
+                <div class="SectionOverview section divider" data-v-8ce316c4="" data-v-371910de="">
+                  <div class="container" data-v-8ce316c4="">
+                    <div class="row row-wrap" data-v-8ce316c4="">
+                      <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag"
+                          data-v-00c78519="">
+                          環境
+                        </button></div>
+                      <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag"
+                          data-v-00c78519="">
+                          B2C
+                        </button></div>
+                      <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag"
+                          data-v-00c78519="">
+                          AI
+                        </button></div>
+                      <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag"
+                          data-v-00c78519="">
+                          食
+                        </button></div>
+                      <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag"
+                          data-v-00c78519="">
+                          建設
+                        </button></div>
+                      <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag"
+                          data-v-00c78519="">
+                          B2B
+                        </button></div>
+                      <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag"
+                          data-v-00c78519="">
+                          レンタル
+                        </button></div>
+                      <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag"
+                          data-v-00c78519="">
+                          小売
+                        </button></div>
+                      <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag"
+                          data-v-00c78519="">
+                          エネルギー
+                        </button></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="header-font">
+                  <h1>説明テキスト</h1>
+                  <p>例: 「Optic」は毎日生成される数百万の新しいNFTを既存のNFT比較するAIエンジンを開発しています。<br>
+                    画像の反転、色の変化、わずかな歪みやぼやけなど、視覚的な類似性をチェックし、マーケットプレイス、
+                    ブランド、メディア企業に対して、知的財産権侵害の可能性を通知します。</p><br>
+                </div>
+
+
+
+                <div data-v-2a522253="" class="companies-body">
+                  <div data-v-5124b0fa="" data-v-2a522253="" class="CompanySearchResult">
+                    <div data-v-580f67b8="" data-v-5124b0fa="" class="ModalEnterprise">
+                      <!---->
+                    </div>
+                    <div data-v-5124b0fa="" class="">
+                      <div data-v-0d5f56e8="" data-v-5124b0fa="" class="CompanySearchFilterModal search-filter-modal">
+                        <!---->
+                      </div>
+                      <div data-v-5124b0fa="" class="search-result-container">
+                        <div data-v-5124b0fa="" class="search-result-header-wrapper">
+                          <div data-v-7907b787="" data-v-5124b0fa="" class="SearchResultHeader search-result-header">
+                            <div data-v-7907b787="" class="left-aria">
+                              <h2 data-v-7907b787="" class="title">最新の資金調達</h2>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-v-5124b0fa="" class="search-result">
+                          <div data-v-5124b0fa="" class="element element--list">
+                            <!---->
+                            <div data-v-b2d2232a="" data-v-5124b0fa="" class="CompanyTableList company-table-list">
+                              <table data-v-b2d2232a="" class="table">
+                                <thead data-v-b2d2232a="">
+                                  <tr data-v-b2d2232a="" class="header-row">
+                                    <th data-v-b2d2232a="" class="header header-company-name header_fontsize"><span
+                                        data-v-b2d2232a="">ラウンド名<i class="fa-solid fa-angle-down"></i></span>
+                                    </th>
+                                    <th data-v-b2d2232a="" class="header header_fontsize"><span
+                                        data-v-b2d2232a="">資金調達日<i class="fa-solid fa-angle-down"></i></span></th>
+                                    <th data-v-b2d2232a="" class="header header_fontsize"><span
+                                        data-v-b2d2232a="">調達金額<i class="fa-solid fa-angle-down"></i></span></th>
+                                    <th data-v-b2d2232a="" class="header header_fontsize"><span data-v-b2d2232a="">投資家<i
+                                          class="fa-solid fa-angle-down"></i></span></th>
+                                  </tr>
+                                </thead>
+                                <tbody data-v-b2d2232a="">
+                                  <tr data-v-b2d2232a="" class="data-row">
+                                    <td data-v-b2d2232a="" class="data data-company-name">
+                                      <div data-v-5ef22d24="" data-v-b2d2232a="" class="TdContentCompanyName">
+                                        <!---->
+                                        <div data-v-5ef22d24="" class="company-name-wrapper"><a data-v-5ef22d24=""
+                                            href="#" class="company-name header-fontsize">
+                                            1. ラウンド名
+                                          </a></div>
+                                      </div>
+                                    </td>
+                                    <td data-v-b2d2232a="" class="data header-fontsize"><span
+                                        data-v-b2d2232a="">2022.08.13</span>
+                                    </td>
+                                    <td data-v-b2d2232a="" class="data header-fontsize data-listing"><span
+                                        class="color-change" data-v-b2d2232a="">$2,200,000</span>
+                                    </td>
+                                    <td data-v-b2d2232a="" class="data header-fontsize"><span
+                                        data-v-b2d2232a="">投資家</span>
+                                    </td>
+                                  </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+
+
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="SdbModalChangeLog" data-v-6ad41444="" data-v-80d2b132="">
-            <!---->
-          </div>
-          <div class="ModalShare" data-v-a9099ad6="" data-v-80d2b132="">
-            <!---->
-          </div>
-        </div>
-        <div class="SectionOverview section divider" data-v-8ce316c4="" data-v-371910de="">
-          <div class="container" data-v-8ce316c4="">
-            <div class="row row-wrap" data-v-8ce316c4="">
-              <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag" data-v-00c78519="">
-                  環境
-                </button></div>
-              <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag" data-v-00c78519="">
-                  B2C
-                </button></div>
-              <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag" data-v-00c78519="">
-                  AI
-                </button></div>
-              <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag" data-v-00c78519="">
-                  食
-                </button></div>
-              <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag" data-v-00c78519="">
-                  建設
-                </button></div>
-              <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag" data-v-00c78519="">
-                  B2B
-                </button></div>
-              <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag" data-v-00c78519="">
-                  レンタル
-                </button></div>
-              <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag" data-v-00c78519="">
-                  小売
-                </button></div>
-              <div class="SdbTag tag" data-v-00c78519="" data-v-8ce316c4=""><button class="tag" data-v-00c78519="">
-                  エネルギー
-                </button></div>
-            </div>
-          </div>
-        </div>
-        <div class="header-font">
-          <h1>説明テキスト</h1>
-          <p>例: 「Optic」は毎日生成される数百万の新しいNFTを既存のNFT比較するAIエンジンを開発しています。<br>
-          画像の反転、色の変化、わずかな歪みやぼやけなど、視覚的な類似性をチェックし、マーケットプレイス、
-          ブランド、メディア企業に対して、知的財産権侵害の可能性を通知します。</p><br>
-        </div>
 
 
-
-        <div data-v-2a522253="" class="companies-body">
-          <div data-v-5124b0fa="" data-v-2a522253="" class="CompanySearchResult">
-            <div data-v-580f67b8="" data-v-5124b0fa="" class="ModalEnterprise">
-              <!---->
-            </div>
-            <div data-v-5124b0fa="" class="">
-              <div data-v-0d5f56e8="" data-v-5124b0fa="" class="CompanySearchFilterModal search-filter-modal">
-                <!---->
-              </div>
-              <div data-v-5124b0fa="" class="search-result-container">
-                <div data-v-5124b0fa="" class="search-result-header-wrapper"><button data-v-5124b0fa=""
-                    class="filter-button"><svg data-v-5124b0fa="" viewBox="0 0 24 24" fill="none" stroke="#3d3d3d"
-                      xmlns="http://www.w3.org/2000/svg" class="filter-button-icon">
-                      <g data-v-5124b0fa="" id="board_filter">
-                        <g data-v-5124b0fa="" id="Filter">
-                          <path data-v-5124b0fa="" id="Stroke 1" d="M10.33 16.5929H4.0293" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"></path>
-                          <path data-v-5124b0fa="" id="Stroke 3" d="M13.1406 6.9003H19.4413" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"></path>
-                          <path data-v-5124b0fa="" id="Stroke 5" fill-rule="evenodd" clip-rule="evenodd"
-                            d="M8.72629 6.84625C8.72629 5.5506 7.66813 4.5 6.36314 4.5C5.05816 4.5 4 5.5506 4 6.84625C4 8.14191 5.05816 9.19251 6.36314 9.19251C7.66813 9.19251 8.72629 8.14191 8.72629 6.84625Z"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                          <path data-v-5124b0fa="" id="Stroke 7" fill-rule="evenodd" clip-rule="evenodd"
-                            d="M20.0002 16.5538C20.0002 15.2581 18.9429 14.2075 17.6379 14.2075C16.3321 14.2075 15.2739 15.2581 15.2739 16.5538C15.2739 17.8494 16.3321 18.9 17.6379 18.9C18.9429 18.9 20.0002 17.8494 20.0002 16.5538Z"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </g>
-                      </g>
-                    </svg> <span data-v-5124b0fa="">フィルタ</span></button>
-                  <div data-v-7907b787="" data-v-5124b0fa="" class="SearchResultHeader search-result-header">
-                    <div data-v-7907b787="" class="left-aria">
-                      <h2 data-v-7907b787="" class="title">最新の資金調達</h2>
+                <footer class="footer">
+                  <div class="justify-content-between text-center fs--1 mt-4 mb-3 row">
+                    <div class="col-sm-auto">
+                      <p class="mb-0 text-600">
+                        <br class="d-sm-none">
+                        <font style="vertical-align: inherit;">
+                          <font style="vertical-align: inherit;">2022 </font>
+                        </font>
+                        <font style="vertical-align: inherit;">
+                          <font style="vertical-align: inherit;">©</font><a href="index.html">
+                            <font style="vertical-align: inherit;">Web3資金調達データベース</font>
+                          </a>
+                        </font> <a href="index.html">
+                          <font style="vertical-align: inherit;"></font>
+                        </a>
+                      </p>
                     </div>
                   </div>
-                </div>
-                <div data-v-5124b0fa="" class="search-result">
-                  <div data-v-5124b0fa="" class="element element--list">
-                    <!---->
-                    <div data-v-b2d2232a="" data-v-5124b0fa="" class="CompanyTableList company-table-list">
-                      <table data-v-b2d2232a="" class="table">
-                        <thead data-v-b2d2232a="">
-                          <tr data-v-b2d2232a="" class="header-row">
-                            <th data-v-b2d2232a="" class="header header-company-name header_fontsize"><span
-                                data-v-b2d2232a="">ラウンド名<i class="fa-solid fa-angle-down"></i></span>
-                            </th>
-                            <th data-v-b2d2232a="" class="header header_fontsize"><span data-v-b2d2232a="">資金調達日<i
-                                  class="fa-solid fa-angle-down"></i></span></th>
-                            <th data-v-b2d2232a="" class="header header_fontsize"><span data-v-b2d2232a="">調達金額<i
-                                  class="fa-solid fa-angle-down"></i></span></th>
-                            <th data-v-b2d2232a="" class="header header_fontsize"><span data-v-b2d2232a="">投資家<i
-                                  class="fa-solid fa-angle-down"></i></span></th>
-                          </tr>
-                        </thead>
-                        <tbody data-v-b2d2232a="">
-                          <tr data-v-b2d2232a="" class="data-row">
-                            <td data-v-b2d2232a="" class="data data-company-name">
-                              <div data-v-5ef22d24="" data-v-b2d2232a="" class="TdContentCompanyName">
-                                <!---->
-                                <div data-v-5ef22d24="" class="company-name-wrapper"><a data-v-5ef22d24="" href="#"
-                                    class="company-name header-fontsize">
-                                    1. ラウンド名
-                                  </a></div>
-                              </div>
-                            </td>
-                            <td data-v-b2d2232a="" class="data header-fontsize"><span data-v-b2d2232a="">2022.08.13</span>
-                            </td>
-                            <td data-v-b2d2232a="" class="data header-fontsize data-listing"><span class="color-change"
-                                data-v-b2d2232a="">$2,200,000</span>
-                            </td>
-                            <td data-v-b2d2232a="" class="data header-fontsize"><span
-                                data-v-b2d2232a="">投資家</span>
-                            </td>
-                          </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-
-
-                </div>
+                </footer>
               </div>
             </div>
-          </div>
+
+            <div class="Toastify"></div>
+          </main>
+
+
+
+
+
+
         </div>
-
-
-        <footer class="footer">
-          <div class="justify-content-between text-center fs--1 mt-4 mb-3 row">
-            <div class="col-sm-auto">
-              <p class="mb-0 text-600">
-                <br class="d-sm-none">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">2022 </font>
-                </font>
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">©</font><a href="index.html">
-                    <font style="vertical-align: inherit;">Web3資金調達データベース</font>
-                  </a>
-                </font> <a href="index.html">
-                  <font style="vertical-align: inherit;"></font>
-                </a>
-              </p>
-            </div>
-          </div>
-        </footer>
       </div>
     </div>
+  </div>
 
-    <div class="Toastify"></div>
-  </main>
+
+
+
+
+
+
+
+
+
+
+
   <script>!function (e) { function r(r) { for (var n, l, a = r[0], f = r[1], c = r[2], p = 0, s = []; p < a.length; p++)l = a[p], Object.prototype.hasOwnProperty.call(o, l) && o[l] && s.push(o[l][0]), o[l] = 0; for (n in f) Object.prototype.hasOwnProperty.call(f, n) && (e[n] = f[n]); for (i && i(r); s.length;)s.shift()(); return u.push.apply(u, c || []), t() } function t() { for (var e, r = 0; r < u.length; r++) { for (var t = u[r], n = !0, a = 1; a < t.length; a++) { var f = t[a]; 0 !== o[f] && (n = !1) } n && (u.splice(r--, 1), e = l(l.s = t[0])) } return e } var n = {}, o = { 1: 0 }, u = []; function l(r) { if (n[r]) return n[r].exports; var t = n[r] = { i: r, l: !1, exports: {} }; return e[r].call(t.exports, t, t.exports, l), t.l = !0, t.exports } l.m = e, l.c = n, l.d = function (e, r, t) { l.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t }) }, l.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, l.t = function (e, r) { if (1 & r && (e = l(e)), 8 & r) return e; if (4 & r && "object" == typeof e && e && e.__esModule) return e; var t = Object.create(null); if (l.r(t), Object.defineProperty(t, "default", { enumerable: !0, value: e }), 2 & r && "string" != typeof e) for (var n in e) l.d(t, n, function (r) { return e[r] }.bind(null, n)); return t }, l.n = function (e) { var r = e && e.__esModule ? function () { return e.default } : function () { return e }; return l.d(r, "a", r), r }, l.o = function (e, r) { return Object.prototype.hasOwnProperty.call(e, r) }, l.p = "/"; var a = this["webpackJsonpfalcon-react"] = this["webpackJsonpfalcon-react"] || [], f = a.push.bind(a); a.push = r, a = a.slice(); for (var c = 0; c < a.length; c++)r(a[c]); var i = f; t() }([])</script>
   <script src="/static/js/2.b68a0e76.chunk.js"></script>
   <div id="goog-gt-tt" class="skiptranslate" dir="ltr">
